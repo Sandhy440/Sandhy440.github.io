@@ -1,0 +1,447 @@
+
+.quicksand-uniquifier {
+    font-family: "Quicksand", serif;
+    font-family: "Playfair Display", serif;
+}
+/*color:#89A8B2
+#B3C8CF
+#E5E1DA
+#F1F0E8*/
+
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:#89A8B2 ;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 9;
+    top: 0px;
+}
+header h1{
+    padding-left: 3%;
+}
+nav {
+    width: 60%;
+}
+nav ul{
+    text-align: right;
+    margin-right: 3%;
+}
+
+nav ul li{
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 2%;
+    font-size: 1.1em;
+    color: #F1F0E8;
+    align-items: center;
+    font-weight: bold;
+}
+header ul li a:hover{
+    background-color: #E5E1DA;
+    color: black;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+    transition: 0.8s;
+    -webkit-transition: 0.s;
+    -moz-transition: 0.s;
+    -ms-transition: 0.s;
+    -o-transition: 0.s;
+}
+header h1{
+    font-size: 2.5em;
+    color: #7e3838;
+}
+header h1 span{
+    color: #F1F0E8;
+}
+#container{
+    margin-top: 3%;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E1DA;
+}
+.logo{
+    width: 25%;
+    margin:0% 5%;
+    padding: 1%;
+    
+}
+.logo:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    filter: drop-shadow(1px 1px 20px rgb(63, 62, 62));
+    -webkit-filter: drop-shadow(1px 1px 20px rgb(51, 48, 48));
+}
+#about .deskripsi{
+    margin: 5% 5%;
+    text-align: justify;
+    padding-top: 5%;
+    
+}
+#about .deskripsi p{
+    padding-top: 2%;
+    font-family: "Quicksand", serif;
+    font-size: 1.2em;
+}
+.deskripsi h1{
+    margin-top:8%;
+    font-size: 2em;
+    text-align: left;
+    color: #7e3838;
+}
+.deskripsi button{
+    background-color:#B3C8CF;
+    padding: 2%;
+    width: 30%;
+    margin-top: 10%;
+    border: none;
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+}
+.deskripsi button:hover{
+    background-color: #8298a0 ;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+button a{
+    color: black;
+}
+#product{
+    background-color: #F1F0E8;
+    padding-bottom: 10%;
+}
+#product h1{
+    text-align: center;
+    padding: 5%;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.gird{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+
+}
+.grid-child{
+    margin: 5% 4%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgb(100, 100, 100);
+    font-family: "Quicksand", serif;
+    margin-bottom: 20%;
+    
+}
+.katalog{
+    width:100%;
+    border-radius:5%;
+    -moz-border-radius:5%;
+    -ms-border-radius:5%;
+    -o-border-radius:5%;
+    -webkit-border-radius:5%;
+}
+
+.gird button:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    background-color:  #8298a0;
+}
+.gird button{
+    padding: 6% 5%;
+    margin-top: 10%;
+    border-radius: 9999px;
+    border: none;
+    background-color:#B3C8CF;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+}
+#location{
+    background-color: #E5E1DA;
+    padding-bottom: 10%;
+}
+#location h1{
+    text-align: center;
+    padding: 5%;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#location div{
+    background-color: #8298a0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    margin: auto;
+}
+#price{ 
+    background-color: #ffffff;
+    display: inline-block;
+   
+}
+#price h1{
+    text-align: center;
+    margin: 5% auto;
+    width: 100%;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#price .wrap{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content:space-evenly;   
+    margin: 2%;
+    margin: auto;
+    row-gap: 3%;
+}
+#price .card{
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 1px 1px 20px rgb(100, 100, 100);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+#price .card img{
+    width: 100%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+#price div{
+    width: 100%;
+    text-align: center;
+    margin: 10% auto;
+}
+#price button{
+    background-color:#B3C8CF;
+    padding: 2%;
+    width: 20%;
+    border: none;
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+
+}
+
+#price button a{
+    font-size: 2em;
+}
+
+
+@media (max-width: 1000px) {
+    .gird{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+    #product h1{
+        font-size: 2em;
+    }
+    #location h1{
+        font-size: 2em;
+    }
+    #price h1{
+        font-size: 2em;
+    }
+}
+@media (max-width: 800px){
+    #about{
+        
+        flex-direction: column;
+    }
+    #about .logo{
+        order: -1;
+        margin-top: 10%;
+    }
+    .deskripsi h1, p{
+        text-align: center;
+        margin-top: 2%;
+    }
+    .deskripsi button{
+        margin: 5% 35%;
+    }
+    nav ul{
+        width: 100%;
+    }
+    header nav ul li a{
+        font-size: 1em;
+    }
+    header h1{
+        font-size: 2em;
+    }
+    .gird{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+    #price .wrap{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    #product h1{
+        font-size: 1.5em;
+    }
+    #location h1{
+        font-size: 1.5em;
+    }
+    #price h1{
+        font-size: 1.5em;
+    }
+    #price button{
+        width: 40%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 600px) {
+        header h1{
+            font-size: 1.3em;
+        }
+        header nav ul li a{
+            font-size: 0.8em;
+        }
+        #about .logo{
+            margin-top: 15%;
+        }
+        .deskripsi h1{
+            font-size: 1.5em;
+        }
+        #about .deskripsi p{
+            font-family: "Quicksand", serif;
+            font-size: 1em;
+        }
+        button{
+            padding: 10px;
+            width: 100%;
+        }
+        #location div iframe{
+            width: 100%;
+        }
+        #location div{
+            width: 80%;
+        }
+        .gird{
+                display: grid;
+                grid-template-columns: 40% 40%;
+                justify-content: space-evenly;
+                font-size: 1em;
+        }
+        #price .wrap{
+            display: grid;
+            grid-template-columns: 80% ;
+        }
+        #product h1{
+            font-size: 1.5em;
+        }
+        #location h1{
+            font-size: 1.5em;
+        }
+        #price h1{
+            font-size: 1.5em;
+        }
+        #price button{
+            width: 40%;
+            margin-top: 140%;
+        }
+}
+    @media (max-width: 470px){
+        header h1{
+            font-size: 1.1em;
+        }
+        header nav ul li a{
+            font-size: 0.8em;
+        }
+        #about .logo{
+            margin-top: 20%;
+        }
+        #about .deskripsi h1{
+            font-size: 1.2em;
+        }
+        #about .deskripsi p{
+            font-family: "Quicksand", serif;
+            font-size: 0.7em;
+        }
+        .gird{
+            display: grid;
+            grid-template-columns: 80%;
+            justify-content: space-evenly;
+            font-size: 1em;
+        }
+        #price .wrap{
+            display: grid;
+            grid-template-columns: 70% ;
+        }
+        #product h1{
+            font-size: 1.5em;
+        }
+        #location h1{
+            font-size: 1.5em;
+        }
+        #price h1{
+            font-size: 1.5em;
+        }
+        #price button{
+            width: 60%;
+        }
+
+    }
